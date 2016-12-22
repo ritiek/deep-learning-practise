@@ -3,10 +3,12 @@
 ## Description:
 
 All my personal projects that were an experience to work on are stacked up here.
-Feel free to browse.
+Feel free to browse through.
 
 ## Projects:
 
-### Custom IR Blaster:
+### RPi RC Car:
 
-(more to be added soon)
+### Universal IR Remote:
+
+### Hacking IR Remote:
