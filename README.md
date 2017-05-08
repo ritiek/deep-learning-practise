@@ -13,4 +13,4 @@ Just some Jupyter Notebooks I made that I might address later on.
 - [scikit-learn_basics.ipynb](scikit-learn/scikit-learn_basics.ipynb) - Basic usage of classifiers in scikit-learn
 
 ### Keras:
-- [keras_basics.ipynb](keras/keras_basics.ipynb) - Saving the trained image classifier and using it to predict on new images
+- image_prediction.ipynb](keras/image_prediction.ipynb) - Saving the trained image classifier and using it to predict on new images
