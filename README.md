@@ -1,16 +1,16 @@
-# My-Notebooks
+# deep-learning-practise
 
-### What is this place?
-Just some Jupyter Notebooks I made that I might address later on.
+Code I wrote to dip my feet in deep-learning.
 
 ## Contents:
 
-### Matplotlib (pylab):
+### matplotlib (pylab):
 - [matplotlib_basics.ipynb](matplotlib/matplotlib_basics.ipynb) - Basic plotting, axis, labels, histographs in matplotlib 
 (adopted mostly from [offical docs](http://matplotlib.org/users/pyplot_tutorial.html))
 
-### Scikit-Learn:
+### scikit-Learn:
 - [scikit-learn_basics.ipynb](scikit-learn/scikit-learn_basics.ipynb) - Basic usage of classifiers in scikit-learn
 
-### Keras:
+### keras:
 - [image_prediction.ipynb](keras/image_prediction.ipynb) - Saving the trained image classifier and using it to predict on new images
+- [multiply_rnn.py](keras/multiply_rnn.py) - An implementation of sequence to sequence learning for performing multiplication (adapted from [addition_rnn.py](https://github.com/fchollet/keras/blob/master/examples/addition_rnn.py))
