@@ -13,4 +13,4 @@ Code I wrote to dip my feet in deep-learning.
 
 ### keras:
 - [image_prediction.ipynb](keras/image_prediction.ipynb) - Saving the trained image classifier and using it to predict on new images
-- [multiply_rnn.py](keras/multiply_rnn.py) - An implementation of sequence to sequence learning for performing multiplication (adapted from [addition_rnn.py](https://github.com/fchollet/keras/blob/master/examples/addition_rnn.py))
+- [multiply_rnn.py](keras/multiply_rnn.py) - An implementation of sequence to sequence learning for performing multiplication of two numbers (as strings) (adapted from [addition_rnn.py](https://github.com/fchollet/keras/blob/master/examples/addition_rnn.py))
