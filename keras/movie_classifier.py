@@ -61,9 +61,13 @@ custom_review2 = ('this film was a garbage the story was meaningless '
                   'and felt bad it was so boring that i felt i was '
                   'being forced to watch this utter useless show')
 
-custom_reviews = (custom_review1, custom_review2)
+custom_review3 = ('the movie was fantastic, extraordinary every moment'
+                  'of the movie was worth it. it was very enjoyable')
+
+custom_reviews = (custom_review1, custom_review2, custom_review3)
 encoded_custom_reviews = np.array([convert_string_to_encoded(review)
                                    for review in custom_reviews])
 vectorized_custom_reviews = vectorize_sequences(encoded_custom_reviews)
 
-model.predict(vectorized_custom_reviews)
+prediction = model.predict(vectorized_custom_reviews)
+print(prediction)
