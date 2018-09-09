@@ -20,4 +20,4 @@ Dip your feet in deep-learning too with these!
 (adopted mostly from [offical docs](http://matplotlib.org/users/pyplot_tutorial.html))
 
 ### tensorflow
--[scratch.py](tensorflow/scratch.py) - Scratching my head.
+- [scratch.py](tensorflow/scratch.py) - Scratching my head.
