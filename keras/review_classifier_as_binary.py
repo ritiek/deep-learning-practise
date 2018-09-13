@@ -36,6 +36,7 @@ y_test = np.asarray(test_labels).astype('float32')
 
 from keras import models
 from keras import layers
+from keras import regularizers
 
 model = models.Sequential()
 model.add(layers.Dense(16, activation='relu', input_shape=(10000,)))
@@ -46,9 +47,8 @@ model.compile(optimizer='rmsprop',
               loss='binary_crossentropy',
               metrics=['accuracy'])
 
-model.fit(x_train, y_train, epochs=4, batch_size=512)
-
-results = model.evaluate(x_test, y_test)
+model.fit(x_train, y_train, epochs=4, batch_size=512,
+          validation_data=(x_test, y_test))
 
 model.predict(x_test)
 
@@ -71,3 +71,12 @@ vectorized_custom_reviews = vectorize_sequences(encoded_custom_reviews)
 
 prediction = model.predict(vectorized_custom_reviews)
 print(prediction)
+
+
+# This model gives the output of the 1st layer of the
+# original model for some given data
+
+micro_model = models.Sequential()
+micro_model.add(model.layers[0])
+intermediate_prediction = micro_model.predict(vectorized_custom_reviews)
+print(intermediate_prediction)
